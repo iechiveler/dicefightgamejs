@@ -10,6 +10,7 @@ body {
 }
 .header {
     margin: auto;
+    margin-top: 100px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -27,17 +28,25 @@ img {
 .start  {
     margin: auto;
     text-align: center;
-    width: 50%;
+}
+.start a{
     border: 2px solid red;
     border-radius: 5px;
     background-color: red;
-}
-.start a{
+    padding: 2px;
     text-decoration: none;
+    font-weight: bold;
     color: white;
+}
+.area {
+    position: absolute;
+    margin-bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
 }
 .dice1 {
     text-align: center;
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 .dice2 {
