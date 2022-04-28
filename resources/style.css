@@ -38,9 +38,24 @@ img {
     font-weight: bold;
     color: white;
 }
+.status {
+    text-align: center;
+}
+.status p {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
 .area {
     position: absolute;
     margin-bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.area2 {
+    position: absolute;
+    margin-bottom: 30px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%);
 }
